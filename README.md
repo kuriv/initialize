@@ -10,20 +10,28 @@
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
 
+## Installation
+
+**NPM**
+
+```
+npm install --save npm-html-initialize
+```
+
 **Download**
 
 See [https://kuriv.github.io/initialize/initialize.html](https://kuriv.github.io/initialize/initialize.html)
 
 ## What does it do?
 
-* Collect and list HTML common meta tags.
-* Define the rendering kernel of common browsers.
-* Explains what meta tags does using detailed comments.
+* Collect and list HTML standard meta tags.
+* Always use the latest version of the document mode.
 * Build your web application more easily.
 
 ## How to use it?
 
-It's suggested that you read the `initialize.html` file and consider customising it to meet your needs.
+You can use `initialize.html` file as the initial `HTML` template file, Alternatively, It's suggested that you read the `initialize.html` file and
+consider customising it to meet your needs.
 
 ## Meta tags
 
@@ -77,19 +85,19 @@ It's suggested that you read the `initialize.html` file and consider customising
 <meta name="format-detection" content="telephone=no, email=no"/>
 ```
 
-### Windows 8 tile name.
+### Add the Windows 8 tile name.
 
 ```html
 <meta name="application-name" content="Title"/>
 ```
 
-### Windows 8 tile color.
+### Add the Windows 8 tile color.
 
 ```html
 <meta name="msapplication-TileColor" content="#000"/>
 ```
 
-### Windows 8 tile image.
+### Add the Windows 8 tile image.
 
 ```html
 <meta name="msapplication-TileImage" content="/image.png"/>
@@ -101,31 +109,31 @@ It's suggested that you read the `initialize.html` file and consider customising
 <meta name="apple-itunes-app" content="app-id=, affiliate-data=, app-argument="/>
 ```
 
-### Set the title added to the home screen.
+### Set the title added to the iPhone home screen.
 
 ```html
 <meta name="apple-mobile-web-app-title" content="Title"/>
 ```
 
-### Standard iPhone icons, 57x57 pixels.
+### Add the Standard iPhone icons, 57x57 pixels.
 
 ```html
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/image@57x57.png"/>
 ```
 
-### Standard iPad icons, 72x72 pixels.
+### Add the Standard iPad icons, 72x72 pixels.
 
 ```html
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/image@72x72.png"/>
 ```
 
-### Retina iPhone icons, 114x114 pixels.
+### Add the Retina iPhone icons, 114x114 pixels.
 
 ```html
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/image@114x114.png"/>
 ```
 
-### Retina iPad icons, 144x144 pixels.
+### Add the Retina iPad icons, 144x144 pixels.
 
 ```html
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/image@144x144.png"/>
