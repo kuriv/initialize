@@ -14,7 +14,7 @@
 
 **NPM**
 
-```
+```sh
 npm install --save npm-html-initialize
 ```
 
@@ -30,7 +30,7 @@ See [https://kuriv.github.io/initialize/initialize.html](https://kuriv.github.io
 
 ## How to use it?
 
-You can use `initialize.html` file as the initial `HTML` template file, Alternatively, It's suggested that you read the `initialize.html` file and
+You can use `initialize.html` as the initial `HTML` template file, Alternatively, It's suggested that you read the `initialize.html` file and
 consider customising it to meet your needs.
 
 ## Meta tags
@@ -61,7 +61,7 @@ consider customising it to meet your needs.
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
 ```
 
-### Enable 360 browser extreme speed mode (webkit).
+### Control the browser to render the page with the webkit kernel.
 
 ```html
 <meta name="renderer" content="webkit"/>
@@ -109,7 +109,7 @@ consider customising it to meet your needs.
 <meta name="apple-itunes-app" content="app-id=, affiliate-data=, app-argument="/>
 ```
 
-### Set the title added to the iPhone home screen.
+### Set the title added to the home screen.
 
 ```html
 <meta name="apple-mobile-web-app-title" content="Title"/>
@@ -139,7 +139,7 @@ consider customising it to meet your needs.
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/image@144x144.png"/>
 ```
 
-### Remove iPhone's default toolbar and menu bar.
+### Remove default toolbar and menu bar.
 
 ```html
 <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -149,6 +149,12 @@ consider customising it to meet your needs.
 
 ```html
 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+```
+
+### Add the theme color to browser's toolbar. (Chrome for Android only)
+
+```html
+<meta name="theme-color" content="#fff"/>
 ```
 
 ### Put the search function on your browser's quick search tool.
