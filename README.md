@@ -1,7 +1,7 @@
 # initialize
 
 <a href="https://github.com/kuriv/initialize">
-	<img src="https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/initialize/30db597822c6e06c6737052260426f45.svg?sanitize=true" width="68" height="68" align="right">
+	<img src="initialize.png" width="80" height="80" align="right">
 </a>
 
 > Build your meta-information in seconds.
@@ -12,15 +12,11 @@
 
 ## Installation
 
-**NPM**
+**npm**
 
-```sh
-npm install --save npm-html-initialize
 ```
-
-**Download**
-
-See [https://kuriv.github.io/initialize/initialize.html](https://kuriv.github.io/initialize/initialize.html)
+npm install @kuriv/initialize
+```
 
 ## What does it do?
 
@@ -28,14 +24,7 @@ See [https://kuriv.github.io/initialize/initialize.html](https://kuriv.github.io
 * Always use the latest version of the document mode.
 * Build your web application more easily.
 
-## How to use it?
-
-You can use `initialize.html` as the initial `HTML` template file, Alternatively, It's suggested that you read the `initialize.html` file and
-consider customising it to meet your needs.
-
 ## Meta tags
-
-
 
 ### Declare the character encoding used by the document.
 
@@ -193,17 +182,15 @@ consider customising it to meet your needs.
 <link rel="shortcut icon" type="image/x-icon" href="/farvirate.ico"/>
 ```
 
-
-
 ## License
 
-`initialize` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+`initialize` is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT) .
 
 
 
-[build-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/initialize/00dcfa5a92fb9b4242304a520c1ba9eb.svg?sanitize=true
-[build-url]: https://github.com/kuriv/initialize
-[version-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/initialize/73dad62fc2aa7c39fe32343a9ec18b54.svg?sanitize=true
-[version-url]: https://github.com/kuriv/initialize
-[license-image]: https://raw.githubusercontent.com/kuriv/kuriv.github.io/master/.cloud/initialize/1ddce524c69082e65c8e1f71c4f02a23.svg?sanitize=true
-[license-url]: https://opensource.org/licenses/MIT
+[build-image]: https://img.shields.io/badge/build-passing-brightgreen   "build"
+[build-url]: https://github.com/kuriv/initialize	"build"
+[version-image]: https://img.shields.io/badge/version-v1.0.1-blue   "version"
+[version-url]: https://github.com/kuriv/initialize	"version"
+[license-image]: https://img.shields.io/badge/license-MIT-green "license"
+[license-url]: https://opensource.org/licenses/MIT	"license"

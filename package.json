@@ -1,8 +1,8 @@
 {
-  "name": "npm-html-initialize",
-  "version": "1.0.2",
+  "name": "@kuriv/initialize",
+  "version": "1.0.1",
   "description": "Build your meta-information in seconds.",
-  "main": "initialize.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +12,13 @@
   },
   "keywords": [
     "html",
-    "initialize"
+    "html5",
+    "meta-tags",
+    "meta-data",
+    "initialize",
+    "initialize-html"
   ],
-  "author": "kuriv",
+  "author": "Kuriv Vesti",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kuriv/initialize/issues"
