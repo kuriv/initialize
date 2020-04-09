@@ -12,10 +12,22 @@
 
 ## Installation
 
+**Git**
+
+```
+git clone https://github.com/kuriv/initialize.git
+```
+
 **npm**
 
 ```
 npm install @kuriv/initialize
+```
+
+**Download**
+
+```
+https://kuriv.github.io/initialize/initialize.html
 ```
 
 ## Meta tags
@@ -48,6 +60,12 @@ Set the browser to render the page with the webkit kernel.
 
 ```html
 <meta name="renderer" content="webkit">
+```
+
+Force the browser to render the page with the webkit kernel.
+
+```html
+<meta name="force-rendering" content="webkit">
 ```
 
 Add the authoritative link of the page.
@@ -184,7 +202,7 @@ Add the icon in front of the page title.
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen   "build"
 [build-url]: https://github.com/kuriv/initialize	"build"
-[version-image]: https://img.shields.io/badge/version-v1.0.3-blue   "version"
+[version-image]: https://img.shields.io/badge/version-v1.0.4-blue   "version"
 [version-url]: https://github.com/kuriv/initialize	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green "license"
 [license-url]: https://opensource.org/licenses/MIT	"license"
