@@ -1,7 +1,7 @@
 # initialize
 
 <a href="https://github.com/kuriv/initialize">
-	<img src="initialize.png" width="80" height="80" align="right">
+	<img src="initialize.svg" width="80" height="80" align="right">
 </a>
 
 > Build your meta-information in seconds.
@@ -202,7 +202,7 @@ Add the icon in front of the page title.
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen   "build"
 [build-url]: https://github.com/kuriv/initialize	"build"
-[version-image]: https://img.shields.io/badge/version-v1.0.4-blue   "version"
+[version-image]: https://img.shields.io/badge/version-v1.0.5-blue   "version"
 [version-url]: https://github.com/kuriv/initialize	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green "license"
 [license-url]: https://opensource.org/licenses/MIT	"license"
