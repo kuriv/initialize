@@ -202,7 +202,7 @@ Add the icon in front of the page title.
 
 [build-image]: https://img.shields.io/badge/build-passing-brightgreen   "build"
 [build-url]: https://github.com/kuriv/initialize	"build"
-[version-image]: https://img.shields.io/badge/version-v1.0.5-blue   "version"
+[version-image]: https://img.shields.io/badge/version-v1.0.6-blue   "version"
 [version-url]: https://github.com/kuriv/initialize	"version"
 [license-image]: https://img.shields.io/badge/license-MIT-green "license"
 [license-url]: https://opensource.org/licenses/MIT	"license"

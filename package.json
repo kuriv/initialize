@@ -1,6 +1,6 @@
 {
   "name": "@kuriv/initialize",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Build your meta-information in seconds.",
   "main": "index.js",
   "scripts": {
